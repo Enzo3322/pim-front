@@ -87,6 +87,17 @@ function Form() {
 								}}
 							/>
 						</div>
+						<div className="input">
+							<label>Senha</label>
+							<input
+								type="password"
+								placeholder="·········"
+								maxLength={15}
+								onChange={(e) => {
+									setPhone(e.target.value);
+								}}
+							/>
+						</div>
 					</>
 				) : (
 					<>
